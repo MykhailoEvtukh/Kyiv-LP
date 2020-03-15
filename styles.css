@@ -285,12 +285,13 @@ header {
 .slideshow-item__text {
   max-width: 35%;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 0;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 5rem 4rem;
+  border-top-right-radius: 100px;
 }
 
 .slideshow-item__text h3 {
@@ -302,7 +303,7 @@ header {
 }
 
 .author-first {
-  color: rgb(190, 207, 92);
+  color: rgb(211, 224, 90);
 }
 
 .author-second {
@@ -310,7 +311,7 @@ header {
 }
 
 .author-third {
-  color: rgb(228, 111, 65);
+  color: rgb(228, 138, 65);
 }
 
 .author-fourth {
